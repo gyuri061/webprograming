@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {  /*전체선택자*/
+        color: blue}
+    h1 { /*태그 선택자 */
+        color: red; font-size: 20px;}
+    .C1 { /*클래스 선택자*/
+        background-color: yellow;font-size: 15px;}
+    #I1 { /*아이디 선택자*/
+        color: green; font-size: 15px;}
+    ol li { /*자식 선택자*/
+        background-color: pink}
+    a:link {color:black; text-decoration:none;} /*링크 선택자*/
+    a:visited {color:black} /*방문한 링크 선택자*/
+    a:hover {color:red} /*마우스 올렸을 때 선택자*/
+    a:active {background-color:cyan} /*클릭했을 때 선택자*/
+    /* 위 순서가 뒤바뀌면 안돼! 특히 active랑 hover랑 바뀌면 안돼 */
+
+</style>
+<body>
+    <h1>CSS 사용</h1>
+    <h2 class="C1">스타일 사용하기</h2>
+    <P>CSS를 이용하여 디자인과 내용을 분리</P>
+    <p class="C1">CSS를 이용하여 디자인과 내용을 분리</p>
+    <ul>
+        <li id="I1">항목 1</li>
+        <li>항목 2</li>
+        <li>항목 3</li>
+    </ul>
+    <ol>
+        <li>순서 있는 항목 1</li>
+        <li>순서 있는 항목 2</li>
+        <li>순서 있는 항목 3</li>
+    </ol>
+    <a href="http://www.syu.ac.kr"> 삼육대학교 </a>
+
+
+</body>
+</html>
