@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시간표</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gasoek+One&family=Jua&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {text-align: center;}
+    .font1 { font-family: "Do Hyeon", sans-serif; font-weight: 400; font-style: normal; color:darkred;}
+    #c2 {background-color:lightpink; }
+    #c3 {background-color:lightblue;}
+    #c4 {background-color:lightgreen;}
+    #c5 {background-color:lightyellow;}
+    #c6 {background-color:navajowhite}
+    #c7 {background-color:plum}
+    #c8 {background-color:lightcyan;}
+    #c9 {background-color:darksalmon}
+    td {padding: 10px 5px;line-height: 1.4;font-size: 14px;}
+    th {background-color: #f4f6f8;color:darkred;padding: 12px 0;font-weight: bold;}
+    td:first-child {background-color: #fafafa;font-weight: 500;color:darkred;}
+    td .prof {display: none;font-size: 12px;color: #555;}
+    td:hover .prof {display: inline;}
+    .timetable-box { margin: 40px auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 16px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); max-width: 900px; }
+    table { width: 100%; margin: 0 auto; }
+</style>
+<body>
+<div class="timetable-box">
+<table border="1">
+<h1 class="font1">2026-2학기 시간표</h1>
+    <thead>
+        <tr>
+            <th>시간</th>
+            <th width="16%">월요일</th>
+            <th width="17%">화요일</th>
+            <th width="16%">수요일</th>
+            <th width="16%">목요일</th>
+            <th width="15%">금요일</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>1교시<br><small>(9:00~10:00)</small></td>
+                <td></td>
+                <td id="c2"rowspan="3"><b>빅데이터<br>이해와 활용</b><br><small>요한관 425호</small><span class="prof"><br>이임정 교수님</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2교시<br><small>(10:00~11:00)</small></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3교시<br><small>(11:00~12:00)</small></td>
+                <td id="c3"><b>채플</b><br><small>대강당</small></td>
+                <td id="c4"rowspan="2"><b>역사와문화</b><br><small>다니엘관 304호</small><span class="prof"><br>하항래 교수님</span></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4교시<br><small>(12:00~13:00)</small></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5교시<br><small>(13:00~14:00)</small></td>
+                <td id="c5" rowspan="3"><b>인공지능확률론</b><br><small>다니엘관 107호</small><span class="prof"><br>최선순 교수님</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6교시<br><small>(14:00~15:00)</small></td>
+                <td id="c6"rowspan="3"><b>웹프로그래밍</b><br><small>바울관 303호</small><span class="prof"><br>최민석 교수님</span></td>
+                <td id="c7"rowspan="3"><b>경제학원론</b><br><small>바울관 312호</small><span class="prof"><br>신용재 교수님</span></td>
+                <td id="c8"rowspan="3"><b>객체지향 <br>프로그래밍</b><br><small>제1실습관 207호</small><span class="prof"><br>강경수 교수님</span></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>7교시<br><small>(15:00~16:00)</small></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>8교시<br><small>(16:00~17:00)</small></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>9교시<br><small>(17:00~18:00)</small></td>
+                <td></td>
+                <td id="c9"><b>인생설계와 진로II </b><br><small>에스라관 107호</small><span class="prof"><br>성동준 교수님</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+</table>
+</div>
+</body>
+</html>
