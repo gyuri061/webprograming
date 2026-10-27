@@ -1,0 +1,82 @@
+<!--예제 1. 조건문-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<script>
+    /* let number = prompt('정수를 입력하세요: ');
+    if (number % 2 == 0) {
+        alert('입력하신 정수는 짝수입니다.');
+    } else {
+        alert('입력하신 정수는 홀수입니다.');
+    }
+
+    let grade = prompt('점수를 입력하세요: ');
+    if (grade >= 90 && grade <= 100) {
+        alert('A학점입니다.');
+    } else if (grade >= 80 && grade < 90) {
+        alert('B학점입니다.');
+    } else if (grade >= 70 && grade < 80) {
+        alert('C학점입니다.');
+    } else if (grade >= 60 && grade < 70) {
+        alert('D학점입니다.');
+    } else if (grade < 60 && grade >= 0) {
+        alert('F학점입니다.');
+    } else {
+        alert('다시 입력해주세요.');
+    } 
+
+    let grade = prompt('점수를 입력하세요: ');
+    switch (parseInt(grade/10)) {
+        case 10:
+        case 9:
+            alert('A학점입니다.');
+            break;
+        case 8:
+            alert('B학점입니다.');
+            break;
+        case 7:
+            alert('C학점입니다.');
+            break;
+        case 6:
+            alert('D학점입니다.');
+            break;
+        case 5:
+        case 4:
+        case 3:
+        case 2:
+        case 1:
+        case 0:
+            alert('F학점입니다.');
+            break;
+        default:
+            alert('다시 입력해주세요.');
+            continue; 
+    } */
+
+</script>
+<body>
+    <h1>조건문</h1>
+    <hr>
+    <h1>반복문</h1>
+    <script>
+        /*let i = 1;
+        let number = prompt('정수를 입력하세요: ');
+        while (i <= number) {
+            document.write(i + "<br>");
+            i++;
+        }
+        for (i = 1 ; i <= number ; i++) {
+	      document.write(i+'<br>'); } */
+        let sum = 0;
+        for (num = 1 ; num <=100 ; num++) {
+            sum += num; /* sum = sum + num; */
+        }
+        document.write("1부터 100까지의 합: " + sum);
+
+    </script>
+</body>
+</html>
