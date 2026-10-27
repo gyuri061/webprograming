@@ -7,13 +7,15 @@
     <title>test</title>
 </head>
 <script>
-    /* let number = prompt('정수를 입력하세요: ');
+    /*입력받은 정수 짝/홀 구분하기*/
+    let number = prompt('정수를 입력하세요: ');
     if (number % 2 == 0) {
         alert('입력하신 정수는 짝수입니다.');
     } else {
         alert('입력하신 정수는 홀수입니다.');
     }
 
+    /*입력받은 점수에 따라 학점 구분하기*/
     let grade = prompt('점수를 입력하세요: ');
     if (grade >= 90 && grade <= 100) {
         alert('A학점입니다.');
@@ -29,6 +31,8 @@
         alert('다시 입력해주세요.');
     } 
 
+    /* switch문을 사용한 학점 구분 */
+    while (true) {
     let grade = prompt('점수를 입력하세요: ');
     switch (parseInt(grade/10)) {
         case 10:
@@ -55,7 +59,9 @@
         default:
             alert('다시 입력해주세요.');
             continue; 
-    } */
+    } 
+    break;
+}
 
 </script>
 <body>
@@ -63,15 +69,20 @@
     <hr>
     <h1>반복문</h1>
     <script>
-        /*let i = 1;
-        let number = prompt('정수를 입력하세요: ');
+        /*입력받은 정수만큼 출력하기(while문)*/
+        let i = 1;
+        /*let number = prompt('정수를 입력하세요: ');*/
         while (i <= number) {
             document.write(i + "<br>");
             i++;
         }
+
+        /*입력받은 정수만큼 출력하기(for문)*/
         for (i = 1 ; i <= number ; i++) {
-	      document.write(i+'<br>'); } */
+	      document.write(i+'<br>'); }
         let sum = 0;
+
+        /*1부터 100까지의 합 구하기*/
         for (num = 1 ; num <=100 ; num++) {
             sum += num; /* sum = sum + num; */
         }
